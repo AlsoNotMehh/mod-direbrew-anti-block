@@ -1,4 +1,10 @@
-# mod-direbrew-anti-block
+# ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore Module: mod-direbrew-anti-block
+
+[![AzerothCore Module](https://img.shields.io/badge/AzerothCore-Module-red?style=flat-square&logo=github)](https://github.com/azerothcore/azerothcore-wotlk)
+[![C++20](https://img.shields.io/badge/Language-C++20-00599C?style=flat-square&logo=c%2B%2B)](https://isocpp.org/)
+[![Branch 3.3.5a](https://img.shields.io/badge/Branch-3.3.5a-orange?style=flat-square)](https://github.com/azerothcore/azerothcore-wotlk)
+[![License GPL-2.0-or-later](https://img.shields.io/badge/License-GPL--2.0--or--later-blue?style=flat-square)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/AlsoNotMehh/mod-direbrew-anti-block?style=flat-square&color=yellow&logo=github)](https://github.com/AlsoNotMehh/mod-direbrew-anti-block/stargazers)
 
 AzerothCore WotLK module intended to prevent the Personal Mole Machine summoned
 by Direbrew's Remote from blocking doorways in capitals and sanctuaries.
@@ -69,8 +75,17 @@ in-game verification. The location policy runs once on the first AI update.
 Later object state changes or relocation are not handled. Sanctuary protection
 uses DBC flags; locations recognized only by special map rules are not included.
 
-## License and credits
+## ⭐ Show your support
 
-GPL-2.0-or-later. Original implementation: AlsoNotMehh, AzerothCore PR #27858
-(commit `4e6e64b48dc47c537182a63f433c1b2100ca060d`). Module extraction and documentation
-were prepared with OpenAI Codex. See `LICENSE` and `AUTHORS`.
+If this module is useful for your server, consider giving it a star on GitHub.
+
+## 👤 Credits
+
+- **Author:** [AlsoNotMehh](https://github.com/AlsoNotMehh) ([Discord](https://discord.com/users/1063304041419001966) / [Email](mailto:itsbrayanrodriguez@gmail.com))
+- **Framework:** [AzerothCore](https://www.azerothcore.org)
+- **Original implementation:** [AzerothCore PR #27858](https://github.com/azerothcore/azerothcore-wotlk/pull/27858) by AlsoNotMehh. See [Sources](#sources) and [AUTHORS](AUTHORS).
+- **AI assistance:** Module extraction and documentation were prepared with OpenAI Codex.
+
+## 📄 License
+
+This project is licensed under [GPL-2.0-or-later](LICENSE).
